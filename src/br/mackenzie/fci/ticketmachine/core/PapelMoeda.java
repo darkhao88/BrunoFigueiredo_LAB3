@@ -15,6 +15,11 @@ public class PapelMoeda {
 		this.quantidade = quantidade;
                 this.isNota = isNota;
 	}
+        
+        public PapelMoeda(double valor, int quantidade) {
+		this.valor = valor;
+		this.quantidade = quantidade;
+	}
 
 	public double getValor() {
 		return valor;
